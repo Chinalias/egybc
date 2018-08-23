@@ -28,7 +28,7 @@ client.user.setStatus("dnd")
 });
 
 
-const adminprefix = "$vip";
+const adminprefix = "$$vip";
 const devs = ['331081268731052042'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
